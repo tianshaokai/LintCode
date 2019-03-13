@@ -24,7 +24,7 @@ public class LintCode_225_FindNode {
 
         ListNode node = findNode(one, 4);
 
-        System.out.println("执行结果：" + node == null ? null : node.value);
+        System.out.println("执行结果：" + (node == null ? null : node.value));
     }
 
     private static ListNode findNode(ListNode head, int value) {
